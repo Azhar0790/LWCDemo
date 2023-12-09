@@ -1,0 +1,22 @@
+<template>
+    <!--<template if:true={contacts}>
+        <template for:each={contacts} for:item="contact">
+            <p key={contact.Id}>{contact.Name}</p>
+        </template>
+    </template>-->
+    <template for:each={contacts} for:item="con">
+
+
+        <div key={con.Id} class="mypad">
+
+         Id : {con.Id},<br/>
+
+         Name : {con.Name},<br/>
+
+         Website : {con.Website}
+
+        </div>
+
+    </template>
+
+</template>
